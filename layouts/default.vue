@@ -1,6 +1,6 @@
 <template>
   <v-app dark class="app">
-    <v-toolbar app dense scroll-off-screen>
+    <v-toolbar app dense scroll-off-screen class="hidden-sm-and-down">
       <v-flex class="text-xs-center text-md-left">
         <nuxt-link to="/">
           <img
@@ -12,7 +12,7 @@
         </nuxt-link>
       </v-flex>
       <!-- NAVBAR FOR MEDIUM AND UP SCREEN SIZES -->
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items>
         <v-btn flat>
           <a href="#top">
             <v-icon class="primary--text mr-1">fas fa-home</v-icon>
@@ -262,7 +262,11 @@ export default {
   background-color: #212121;
   overflow: hidden;
 }
-
+.v-content {
+  @media screen and (max-width: 959px) {
+    padding-top: 0 !important;
+  }
+}
 // NAVBAR - size logo
 #navbar-logo {
   max-width: 120px;

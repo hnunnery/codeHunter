@@ -41,7 +41,7 @@ export default {
 #main-logo {
   max-width: 100%;
   // raises main logo up above train tracks
-  margin: 0 auto 250px;
+  margin: 0 auto 200px;
   @media only screen and (min-width: 1000px) {
     max-width: 850px;
   }
