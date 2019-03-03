@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mt-5" id="about" v-scroll-spy>
+  <v-container fluid class="mt-5">
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center px-2">
         <h2 class="primary--text display-3">- About Me -</h2>

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="contact" v-scroll-spy>
+  <v-container fluid id="contact">
     <v-layout row wrap justify-center>
       <v-flex xs12>
         <!-- html form required for processing forms with netlify -->

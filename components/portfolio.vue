@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid id="portfolio" v-scroll-spy>
+  <v-container fluid>
     <v-layout row wrap justify-center align-start>
       <v-flex xs12 class="text-xs-center">
         <h2 class="primary--text display-3">- Portfolio -</h2>

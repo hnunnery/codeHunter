@@ -1,10 +1,20 @@
 <template>
   <div class="home">
-    <Jumbotron/>
-    <Services/>
-    <Portfolio/>
-    <Reviews/>
-    <About/>
+    <div id="top">
+      <Jumbotron/>
+    </div>
+    <div id="services">
+      <Services/>
+    </div>
+    <div id="portfolio">
+      <Portfolio/>
+    </div>
+    <div id="reviews">
+      <Reviews/>
+    </div>
+    <div id="about">
+      <About/>
+    </div>
   </div>
 </template>
 

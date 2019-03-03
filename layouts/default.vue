@@ -66,8 +66,8 @@
       fixed
       app
     >
-      <v-list v-scroll-spy-active v-scroll-spy-link class="mt-5">
-        <a href="#top" hidden>
+      <v-list class="mt-5">
+        <a href="#top">
           <v-list-tile>
             <v-list-tile-action>
               <v-icon class="white--text">fas fa-home</v-icon>
