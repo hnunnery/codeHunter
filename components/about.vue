@@ -155,7 +155,7 @@
 </template>
 
 <script>
-import Contact from "@/components/Contact";
+import Contact from "@/components/contact";
 
 export default {
   name: "about",

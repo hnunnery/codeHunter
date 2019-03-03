@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Jumbotron from "@/components/Jumbotron";
-import Services from "@/components/Services";
-import Portfolio from "@/components/Portfolio";
-import Reviews from "@/components/Reviews";
-import About from "@/components/About";
+import Jumbotron from "@/components/jumbotron";
+import Services from "@/components/services";
+import Portfolio from "@/components/portfolio";
+import Reviews from "@/components/reviews";
+import About from "@/components/about";
 
 export default {
   name: "home",
