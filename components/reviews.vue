@@ -1,17 +1,11 @@
 <template>
   <v-container fluid class="my-5">
-    <v-layout row wrap justify-center align-start>
+    <v-layout row wrap justify-center align-start class="mb-5">
       <v-flex xs12 class="text-xs-center">
         <h2 class="primary--text display-3">- Reviews -</h2>
       </v-flex>
       <v-flex xs12 md6 class="text-xs-center px-4 my-5">
-        <div
-          class="review"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-        >
+        <div class="review">
           <h2 class="display-1">Veterans of War Aid Foundation</h2>
           <v-divider class="mt-2 mb-3"></v-divider>
           <p
@@ -27,13 +21,7 @@
         </div>
       </v-flex>
       <v-flex xs12 md6 class="text-xs-center px-4 my-5">
-        <div
-          class="review"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-        >
+        <div class="review">
           <h2 class="display-1">Almazan Roofing Inc.</h2>
           <v-divider class="mt-2 mb-3"></v-divider>
           <p

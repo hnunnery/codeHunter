@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="home-content">
-    <v-layout row wrap justify-center>
+    <v-layout row wrap justify-center class="mb-5">
       <v-flex xs12>
         <v-parallax
           src="https://res.cloudinary.com/missionwebdev/image/upload/co_rgb:000,e_colorize:50,f_auto/v1530834010/header-img.jpg"

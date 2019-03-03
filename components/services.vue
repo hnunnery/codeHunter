@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="my-5">
-    <v-layout row wrap justify-center>
+    <v-layout row wrap justify-center class="mb-5">
       <v-flex
         xs12
         data-aos="zoom-out-down"

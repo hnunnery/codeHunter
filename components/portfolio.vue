@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-layout row wrap justify-center align-start>
+    <v-layout row wrap justify-center align-start class="mb-5">
       <v-flex xs12 class="text-xs-center">
         <h2 class="primary--text display-3">- Portfolio -</h2>
       </v-flex>
