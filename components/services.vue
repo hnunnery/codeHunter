@@ -1,11 +1,25 @@
 <template>
   <v-container fluid class="my-5">
     <v-layout row wrap justify-center>
-      <v-flex xs12 class="text-xs-center">
+      <v-flex
+        xs12
+        data-aos="zoom-out-down"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        class="text-xs-center"
+      >
         <h2 class="primary--text display-3 mb-5">- Services -</h2>
       </v-flex>
       <!-- Card #1 -->
-      <v-flex xs12 md6 lg4 class="text-xs-center px-3">
+      <v-flex
+        xs12
+        md6
+        lg4
+        data-aos="zoom-out-right"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        class="text-xs-center px-3"
+      >
         <v-img
           src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_431,w_700/v1531300028/code1.jpg"
           alt="code"
@@ -19,7 +33,15 @@
         >Cutting edge web development frameworks and methodologies are used to craft your website from the ground up. You will have a fast, clean, cutting-edge site for your business. "Responsive web design" will be utilized in order to make your site look great on all devices.</p>
       </v-flex>
       <!-- Card #2 -->
-      <v-flex xs12 md6 lg4 class="text-xs-center px-3">
+      <v-flex
+        xs12
+        md6
+        lg4
+        data-aos="zoom-out-up"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        class="text-xs-center px-3"
+      >
         <v-img
           src="https://res.cloudinary.com/missionwebdev/image/upload/c_fill,f_auto,g_center,h_431,w_700/v1531975229/logo-bg-tall.png"
           alt="logos"
@@ -33,7 +55,15 @@
         >Need a simple and professional logo designed? Get one designed along with your new website. Satisfaction guaranteed; unlimited revisions until we find the perfect logo for your business. Get provided with high resolution logos in various file types and color schemes.</p>
       </v-flex>
       <!-- Card #3 -->
-      <v-flex xs12 md6 lg4 class="text-xs-center px-3">
+      <v-flex
+        xs12
+        md6
+        lg4
+        data-aos="zoom-out-left"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        class="text-xs-center px-3"
+      >
         <v-img
           src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_700/v1531302311/consulting.jpg"
           alt="consulting"
