@@ -1,6 +1,9 @@
 <template>
   <v-container fluid class="my-5">
     <v-layout row wrap justify-center>
+      <v-flex xs12 class="text-xs-center">
+        <h2 class="primary--text display-3">- Services -</h2>
+      </v-flex>
       <!-- Card #1 -->
       <v-flex xs12 md6 lg4 class="text-xs-center px-3">
         <v-img
