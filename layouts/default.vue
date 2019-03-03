@@ -7,7 +7,7 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_120/v1532905479/simpleLogo.png"
             alt="logo"
             id="navbar-logo"
-            class="pt-1"
+            class="pt-1 ml-4"
           >
         </nuxt-link>
       </v-flex>
@@ -127,6 +127,8 @@
             </v-list-tile-content>
           </v-list-tile>
         </a>
+
+        <v-divider class="my-2"></v-divider>
 
         <v-list-tile value="true" href="https://www.linkedin.com/in/hunternunnery" target="_blank">
           <v-list-tile-action>
