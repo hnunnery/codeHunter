@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="home-content">
+  <v-container fluid class="home-content" id="top">
     <v-layout row wrap justify-center>
       <v-flex xs12>
         <v-parallax

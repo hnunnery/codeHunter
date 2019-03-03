@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mt-5">
+  <v-container fluid class="mt-5" id="about">
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center px-2">
         <h2 class="primary--text display-3">About Me</h2>
@@ -74,7 +74,7 @@
         </v-layout>
       </v-flex>
       <v-layout row wrap justify-center>
-        <v-flex xs12 md6 xl5 class="text-xs-center px-3 skills">
+        <v-flex xs12 md6 lg5 class="text-xs-center px-3 skills">
           <h2 class="display-2 primary--text">Skills</h2>
           <v-divider class="mt-2 mb-2"></v-divider>
           <v-layout row wrap justify-center align-center>
