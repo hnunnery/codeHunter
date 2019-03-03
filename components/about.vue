@@ -42,6 +42,7 @@
 
           <v-flex xs12 class="mt-4">
             <h2 class="primary--text display-2">Education</h2>
+            <v-divider class="mt-2"></v-divider>
           </v-flex>
           <v-layout row wrap justify-center>
             <v-flex xs12 sm6 md4 class="mt-5 ed">
@@ -69,83 +70,85 @@
           </v-layout>
         </v-layout>
       </v-flex>
-      <v-layout row wrap justify-center>
-        <v-flex xs12 md6 lg5 class="text-xs-center px-3 skills">
-          <h2 class="display-2 primary--text">Skills</h2>
-          <v-divider class="mt-2 mb-2"></v-divider>
-          <v-layout row wrap justify-center align-center>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/html.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/css.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/js.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/vue.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566485/codeHunter/nuxt.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871802/codeHunter/vuetify.svg"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566485/codeHunter/firebase.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566486/codeHunter/netlify.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/sass.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/vs-code.png"
-                alt="logo"
-              >
-            </v-flex>
-            <v-flex class="text-xs-center ma-3">
-              <img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/git.png"
-                alt="logo"
-              >
-            </v-flex>
-          </v-layout>
-        </v-flex>
-        <v-flex xs12 md6 xl5>
-          <Contact/>
-        </v-flex>
-      </v-layout>
+      <v-container>
+        <v-layout row wrap justify-space-around>
+          <v-flex xs12 md6 lg5 class="text-xs-center px-3 skills">
+            <h2 class="display-2 primary--text">Skills</h2>
+            <v-divider class="mt-2 mb-2"></v-divider>
+            <v-layout row wrap justify-center align-center>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/html.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/css.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/js.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/vue.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566485/codeHunter/nuxt.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871802/codeHunter/vuetify.svg"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566485/codeHunter/firebase.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1551566486/codeHunter/netlify.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/sass.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/vs-code.png"
+                  alt="logo"
+                >
+              </v-flex>
+              <v-flex class="text-xs-center ma-3">
+                <img
+                  src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_80/v1533871801/codeHunter/git.png"
+                  alt="logo"
+                >
+              </v-flex>
+            </v-layout>
+          </v-flex>
+          <v-flex xs12 md6 lg5 xl4 class="px-4">
+            <Contact/>
+          </v-flex>
+        </v-layout>
+      </v-container>
     </v-layout>
   </v-container>
 </template>

@@ -13,7 +13,23 @@
           >This is a placeholder for a future client review. Text was necessary to fill the space in order to set the website up correctly for future additions to this page. If you are reading this, maybe you can be the next client that I create a website for; that way you can leave a review instead of this placeholder.</p>
           <p class="title mt-2 mb-4">Nate Acevedo | Chief Executive Officer</p>
           <v-img
-            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_150/v1551404060/codeHunter/ace-circle.png"
+            src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,q_auto:good,w_150/v1551624791/codeHunter/ace-circle.png"
+            alt="client"
+            width="150px"
+            class="client-photo"
+          ></v-img>
+        </div>
+      </v-flex>
+      <v-flex xs12 md6 class="text-xs-center px-4 my-5">
+        <div class="review">
+          <h2 class="display-1">Veterans of War Aid Foundation</h2>
+          <v-divider class="mt-2 mb-3"></v-divider>
+          <p
+            class="text-xs-left subheading quote"
+          >This is a placeholder for a future client review. Text was necessary to fill the space in order to set the website up correctly for future additions to this page. If you are reading this, maybe you can be the next client that I create a website for; that way you can leave a review instead of this placeholder.</p>
+          <p class="title mt-2 mb-4">Alice Ward | Founder and CFO</p>
+          <v-img
+            src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,q_auto:good,w_150/v1551624791/codeHunter/alice-circle.png"
             alt="client"
             width="150px"
             class="client-photo"
@@ -49,6 +65,11 @@ export default {
 <style lang="scss" scoped>
 .client-photo {
   margin: 0 auto !important;
+}
+@media screen and (max-width: 400px) {
+  p.title {
+    font-size: 1.25em !important;
+  }
 }
 
 @media screen and (max-width: 599px) {

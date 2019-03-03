@@ -1,3 +1,6 @@
+:root {
+  --primary: #22aa00;
+}
 .subheading {
   font-size: 1.25em !important;
 }

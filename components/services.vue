@@ -5,7 +5,7 @@
         xs12
         data-aos="zoom-out-down"
         data-aos-delay="300"
-        data-aos-duration="1000"
+        data-aos-duration="1400"
         class="text-xs-center"
       >
         <h2 class="primary--text display-3 mb-5">- Services -</h2>
@@ -17,7 +17,7 @@
         lg4
         data-aos="zoom-out-right"
         data-aos-delay="300"
-        data-aos-duration="1000"
+        data-aos-duration="1400"
         class="text-xs-center px-3"
       >
         <v-img
@@ -39,7 +39,7 @@
         lg4
         data-aos="zoom-out-up"
         data-aos-delay="300"
-        data-aos-duration="1000"
+        data-aos-duration="1400"
         class="text-xs-center px-3"
       >
         <v-img
@@ -61,7 +61,7 @@
         lg4
         data-aos="zoom-out-left"
         data-aos-delay="300"
-        data-aos-duration="1000"
+        data-aos-duration="1400"
         class="text-xs-center px-3"
       >
         <v-img
