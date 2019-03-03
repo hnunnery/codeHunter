@@ -66,8 +66,8 @@
       fixed
       app
     >
-      <v-list>
-        <!-- <a href="#top">
+      <v-list v-scroll-spy-active v-scroll-spy-link class="mt-5">
+        <a href="#top" hidden>
           <v-list-tile>
             <v-list-tile-action>
               <v-icon class="white--text">fas fa-home</v-icon>
@@ -128,13 +128,9 @@
           </v-list-tile>
         </a>
 
-        <v-divider class="my-2"></v-divider>-->
-        <v-list-tile
-          value="true"
-          href="https://www.linkedin.com/in/hunternunnery"
-          target="_blank"
-          class="mt-5"
-        >
+        <v-divider class="my-2"></v-divider>
+
+        <v-list-tile value="true" href="https://www.linkedin.com/in/hunternunnery" target="_blank">
           <v-list-tile-action>
             <v-icon class="white--text">fab fa-linkedin</v-icon>
           </v-list-tile-action>

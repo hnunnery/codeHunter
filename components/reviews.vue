@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="my-5" id="reviews">
+  <v-container fluid class="my-5" id="reviews" v-scroll-spy>
     <v-layout row wrap justify-center align-start>
       <v-flex xs12 class="text-xs-center">
         <h2 class="primary--text display-3">Reviews</h2>

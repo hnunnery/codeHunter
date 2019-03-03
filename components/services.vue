@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="my-5" id="services">
+  <v-container fluid class="my-5" id="services" v-scroll-spy>
     <v-layout row wrap justify-center>
       <!-- Card #1 -->
       <v-flex xs12 md6 lg4 class="text-xs-center px-3">
