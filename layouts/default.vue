@@ -1,6 +1,6 @@
 <template>
   <v-app dark class="app">
-    <!-- <v-toolbar app dense scroll-off-screen>
+    <v-toolbar app dense scroll-off-screen>
       <v-flex class="text-xs-center">
         <nuxt-link to="/">
           <img
@@ -13,73 +13,6 @@
       </v-flex>
     </v-toolbar>
 
-    <v-navigation-drawer
-      clipped
-      temporary
-      width="170"
-      :right="right"
-      v-model="rightDrawer"
-      class="hidden-md-and-up"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile value="true" v-for="(item, i) in items" :key="i" router :to="item.link">
-          <v-list-tile-action>
-            <v-icon class="white--text" v-html="item.icon"></v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text" v-text="item.title"></v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-      <v-list>
-        <v-list-tile value="true" href="https://www.linkedin.com/in/hunternunnery" target="_blank">
-          <v-list-tile-action>
-            <v-icon class="white--text">fab fa-linkedin</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text">LINKED IN</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile value="true" href="https://facebook.com/codehunterweb" target="_blank">
-          <v-list-tile-action>
-            <v-icon class="white--text">fab fa-facebook</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text">FACEBOOK</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile value="true" href="https://www.twitter.com/HunterNunnery" target="_blank">
-          <v-list-tile-action>
-            <v-icon class="white--text">fab fa-twitter-square</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text">TWITTER</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile value="true" href="https://github.com/hnunnery" target="_blank">
-          <v-list-tile-action>
-            <v-icon class="white--text">fab fa-github-square</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text">GITHUB</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile
-          value="true"
-          href="https://www.youtube.com/channel/UCn6R2guTsqRTKAz1SUWI7Uw"
-          target="_blank"
-        >
-          <v-list-tile-action>
-            <v-icon class="white--text">fab fa-youtube-square</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title class="white--text">YOUTUBE</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>-->
     <v-content>
       <router-view/>
     </v-content>
