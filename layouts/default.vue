@@ -7,7 +7,7 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,w_120/v1532905479/simpleLogo.png"
             alt="logo"
             id="navbar-logo"
-            class="pt-1 ml-4"
+            class="pt-1"
           >
         </nuxt-link>
       </v-flex>
@@ -51,12 +51,12 @@
         </v-btn>
       </v-toolbar-items>
       <!-- NAVBAR FOR SMALL AND EXTRA SMALL SCREEN SIZES -->
-      <v-btn icon @click.stop="rightDrawer = !rightDrawer" class="hidden-md-and-up">
+      <!-- <v-btn icon @click.stop="rightDrawer = !rightDrawer" class="hidden-md-and-up">
         <v-icon>fas fa-bars</v-icon>
-      </v-btn>
+      </v-btn>-->
     </v-toolbar>
 
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       clipped
       temporary
       width="170"
@@ -175,8 +175,7 @@
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
-    </v-navigation-drawer>
-
+    </v-navigation-drawer>-->
     <v-content>
       <router-view/>
     </v-content>
