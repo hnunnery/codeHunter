@@ -2,8 +2,7 @@
   <v-container fluid class="my-5" id="reviews" v-scroll-spy>
     <v-layout row wrap justify-center align-start>
       <v-flex xs12 class="text-xs-center">
-        <h2 class="primary--text display-3">Reviews</h2>
-        <v-divider></v-divider>
+        <h2 class="primary--text display-3">- Reviews -</h2>
       </v-flex>
       <v-flex xs12 md6 class="text-xs-center px-4 my-5">
         <div

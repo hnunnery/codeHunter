@@ -2,8 +2,7 @@
   <v-container fluid id="portfolio" v-scroll-spy>
     <v-layout row wrap justify-center align-start>
       <v-flex xs12 class="text-xs-center">
-        <h2 class="primary--text display-3">Portfolio</h2>
-        <v-divider></v-divider>
+        <h2 class="primary--text display-3">- Portfolio -</h2>
       </v-flex>
       <v-flex xs12 md6 class="text-xs-center my-5 px-5 vowaid">
         <router-link to="/vowaid">

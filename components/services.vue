@@ -9,7 +9,7 @@
           class="responsive-img elevation-12"
           contain
         ></v-img>
-        <h2 class="display-1 mt-5 text-xs-center">Design and Development</h2>
+        <h2 class="display-1 mt-5 text-xs-center shrink">Design and Development</h2>
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
           class="subheading text-xs-left"
@@ -27,7 +27,7 @@
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
           class="subheading text-xs-left"
-        >With your input, I will design a modern website layout and theme for your business. I have multiple options that we can use as a starting point and customize to your liking from there. Satisfaction Guaranteed.</p>
+        >Need a simple and professional logo designed? Get one designed along with your new website. Satisfaction guaranteed; unlimited revisions until we find the perfect logo for your business. Get provided with high resolution logos in various file types and color schemes.</p>
       </v-flex>
       <!-- Card #3 -->
       <v-flex xs12 md6 lg4 class="text-xs-center px-3">
@@ -41,7 +41,7 @@
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
           class="subheading text-xs-left"
-        >I can handle or assist you with Domain Name Registration, Search Engine Optimization (SEO), Web Hosting, Business Email (name@business.com), Google Business Listings, Business Cards, and Social Media.</p>
+        >I can handle or assist you with Domain Name Registration, Search Engine Optimization (SEO), Web Hosting, Business Email (name@business.com), Google Business Listings, Business Cards, and Social Media. I'll care of this stuff so that you can focus on your business.</p>
       </v-flex>
     </v-layout>
   </v-container>
@@ -59,6 +59,9 @@ export default {
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin-bottom: 60px;
+  }
+  .shrink {
+    font-size: 30px !important;
   }
 }
 </style>

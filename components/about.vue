@@ -2,8 +2,7 @@
   <v-container fluid class="mt-5" id="about" v-scroll-spy>
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center px-2">
-        <h2 class="primary--text display-3">About Me</h2>
-        <v-divider></v-divider>
+        <h2 class="primary--text display-3">- About Me -</h2>
       </v-flex>
       <v-flex xs12 md5 class="text-xs-center flex1 sections mt-5">
         <h1>Hunter Nunnery</h1>
@@ -41,36 +40,33 @@
             </ul>
           </v-flex>
 
-          <v-flex xs12>
-            <div class="hidden-md-and-up">
-              <br>
-              <br>
-            </div>
+          <v-flex xs12 class="mt-4">
             <h2 class="primary--text display-2">Education</h2>
           </v-flex>
+          <v-layout row wrap justify-center>
+            <v-flex xs12 sm6 md4 class="mt-5 ed">
+              <h3 class="display-1">Park University</h3>
+              <h4 class="title my-2">Associate of Science</h4>
+              <p class="subheading">Business Management</p>
+              <p class="subheading">2015 - 2017</p>
+            </v-flex>
 
-          <v-flex xs12 sm6 md4 class="mt-5 ed">
-            <h3 class="display-1">Park University</h3>
-            <h4 class="title my-2">Associate of Science</h4>
-            <p class="subheading">Business Management</p>
-            <p class="subheading">2015 - 2017</p>
-          </v-flex>
+            <v-flex xs12 sm6 md4 class="mt-5 ed">
+              <h3 class="display-1">Park University</h3>
+              <h4 class="title my-2">Bachelor of Science</h4>
+              <p class="subheading">Management/Information Systems</p>
+              <p class="subheading">2017 - 2018</p>
+            </v-flex>
 
-          <v-flex xs12 sm6 md4 class="mt-5 ed">
-            <h3 class="display-1">Park University</h3>
-            <h4 class="title my-2">Bachelor of Science</h4>
-            <p class="subheading">Management/Information Systems</p>
-            <p class="subheading">2017 - 2018</p>
-          </v-flex>
-
-          <v-flex xs12 sm6 md4 class="mt-5 ed">
-            <h3 class="display-1">Florida State University</h3>
-            <h4 class="title my-2">Master of Science</h4>
-            <p class="subheading">Information Technology
-              <br>w/ Focus in Web Design
-            </p>
-            <p class="subheading">2019 - 2020</p>
-          </v-flex>
+            <v-flex xs12 sm6 md4 class="mt-5 ed">
+              <h3 class="display-1">Florida State University</h3>
+              <h4 class="title my-2">Master of Science</h4>
+              <p class="subheading">Information Technology
+                <br>w/ Focus in Web Design
+              </p>
+              <p class="subheading">2019 - 2020</p>
+            </v-flex>
+          </v-layout>
         </v-layout>
       </v-flex>
       <v-layout row wrap justify-center>
@@ -169,7 +165,10 @@ export default {
 .container {
   padding: 0;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  @media screen and (min-width: 960px) {
+    margin-bottom: 80px;
+  }
 }
 .skills {
   margin-top: 115px !important;
@@ -177,17 +176,23 @@ export default {
 .flex1 {
   padding: 20px 0 20px;
   h1 {
-    font-size: 5vw;
-    @media only screen and (max-width: 800px) {
-      font-size: 40px;
+    font-size: 4vw;
+    @media only screen and (max-width: 959px) {
+      font-size: 8vw;
     }
   }
-  @media only screen and (min-width: 955px) {
+  @media only screen and (max-width: 959px) {
     h2 {
-      font-size: 3vw;
+      font-size: 5vw;
+      padding-bottom: 3vw;
+    }
+  }
+  @media only screen and (min-width: 960px) {
+    h2 {
+      font-size: 2.8vw;
     }
     li {
-      font-size: 2vw;
+      font-size: 1.5vw;
     }
   }
   ul {
@@ -206,18 +211,12 @@ export default {
   background-color: #1c1c1c;
   padding: 10px;
   margin-top: -7px;
-  @media screen and (min-width: 960px) {
-    margin-top: -40px;
-  }
 }
 .hunter-photo {
   max-width: 60%;
   @media screen and (min-width: 960px) {
     margin-top: 30px;
   }
-}
-.md-up-list {
-  font-size: 1em;
 }
 .sm-down-list {
   font-size: 5vw;
