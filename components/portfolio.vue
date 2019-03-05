@@ -5,36 +5,55 @@
         <h2 class="primary--text display-3">- Portfolio -</h2>
       </v-flex>
       <v-flex xs12 md6 class="text-xs-center my-5 px-5 vowaid">
-        <router-link to="/vowaid">
+        <a href="https://www.stealthentry.com" target="_blank">
           <v-img
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-delay="50"
             data-aos-duration="1500"
             class="responsive-img"
-            src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,w_800/v1539557595/codeHunter/vowaid-laptop-iphone.png"
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_800/v1551824888/codeHunter/stealthentry-graphic.png"
             alt="laptop and iphone"
           ></v-img>
-        </router-link>
+        </a>
+        <h2 class="display-1 mt-5">Stealth Entry</h2>
+        <v-divider class="mt-2 mb-3"></v-divider>
+        <p
+          class="text-xs-left subheading"
+        >Stealth Entry Cyber Security Solutions takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest techniques. Stealth Entry, LLC. is certified U.S. Small Business Administration 8(a), Serviced Disabled Veteran Owned (SDVOSB) and State of Ohio Minority Business Enterprise and Veterans Business Enterprise (MBE/VBE/EDGE).</p>
+      </v-flex>
+
+      <v-flex xs12 md6 class="text-xs-center my-5 px-5 vowaid">
+        <a href="https://vowaidfoundation.org" target="_blank">
+          <v-img
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            class="responsive-img"
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_auto:best,w_800/v1551824385/codeHunter/vowaid-graphic.png"
+            alt="laptop and iphone"
+          ></v-img>
+        </a>
         <h2 class="display-1 mt-5">VOWAID Foundation</h2>
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
           class="text-xs-left subheading"
-        >The Veterans of War Aid Foundation is a 501 (c) 3 non-profit organization founded by U.S. Service Members that is dedicated to assisting veterans and their families by providing opportunities for financial, emotional growth and self-empowerment.</p>
+        >The Veterans of War Aid Foundation (VOWAID) is a 501 (c) 3 non-profit organization founded by U.S. Service Members, dedicated to assisting veterans, spouses and children of disabled veterans, and fallen heroes by providing opportunities for financial, emotional growth, and self-empowerment.</p>
       </v-flex>
 
       <v-flex xs12 md6 class="text-xs-center my-5 px-5 almazan-roofing">
-        <router-link to="/almazan-roofing">
+        <a href="https://almazanroofing.com" target="_blank">
           <v-img
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-delay="50"
             data-aos-duration="1500"
             class="responsive-img"
-            src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,w_800/v1533871620/AlmazanRoofing/ar-laptop-iphone.png"
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_auto:best,w_800/v1551824385/codeHunter/almazanroofing-graphic.png"
             alt="laptop and iphone"
           ></v-img>
-        </router-link>
+        </a>
         <h2 class="display-1 mt-5">Almazan Roofing Inc.</h2>
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
@@ -43,7 +62,7 @@
       </v-flex>
 
       <v-flex xs12 md6 class="text-xs-center my-5 px-5 size-my-tot">
-        <router-link to="/size-my-tot">
+        <a href="https://sizemytot.com" target="_blank">
           <v-img
             data-aos="fade-up"
             data-aos-offset="300"
@@ -51,10 +70,10 @@
             data-aos-duration="1500"
             to="/size-my-tot"
             class="responsive-img"
-            src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,w_800/v1533871649/SizeMyTot/smt-laptop-iphone.png"
+            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_auto:best,w_800/v1551824385/codeHunter/sizemytot-graphic.png"
             alt="iphone"
           ></v-img>
-        </router-link>
+        </a>
         <h2 class="display-1 mt-5">Size My Tot</h2>
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
