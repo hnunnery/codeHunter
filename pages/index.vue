@@ -15,6 +15,9 @@
     <div id="about">
       <About/>
     </div>
+    <div class="affiliate text-xs-center">
+      <Affiliate/>
+    </div>
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import Services from "@/components/services";
 import Portfolio from "@/components/portfolio";
 import Reviews from "@/components/reviews";
 import About from "@/components/about";
+import Affiliate from "@/components/affiliate";
 
 export default {
   name: "home",
@@ -32,7 +36,14 @@ export default {
     Services,
     Portfolio,
     Reviews,
-    About
+    About,
+    Affiliate
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.affiliate {
+  margin-bottom: 60px;
+}
+</style>

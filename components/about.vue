@@ -168,10 +168,7 @@ export default {
 .container {
   padding: 0;
   margin-top: 50px;
-  margin-bottom: 50px;
-  @media screen and (min-width: 960px) {
-    margin-bottom: 80px;
-  }
+  margin-bottom: 30px;
 }
 .skills {
   margin-top: 115px !important;
