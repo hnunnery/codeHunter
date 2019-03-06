@@ -26,7 +26,7 @@
           <v-divider class="mt-2 mb-3"></v-divider>
           <p
             class="text-xs-left subheading quote"
-          >Hunter took our Veteran non-profit website to a higher level! Flawless coding, very responsive, professional and clear platform. His great work has helped us design a website that is a one-stop resource for Veterans facing some serious challenges. Also a fellow Marine Corps brother, he is able to relate our Foundation’s message to our clients as he has deep insight to the Veteran struggle. Thank you for being part of the team! 10 Star and quality service! We highly recommend CodeHunter as your web designer of choice!</p>
+          >"Hunter took our Veteran non-profit website to a higher level! Flawless coding, very responsive, professional and clear platform. His great work has helped us design a website that is a one-stop resource for Veterans facing some serious challenges. Also a fellow Marine Corps brother, he is able to relate our Foundation’s message to our clients as he has deep insight to the Veteran struggle. Thank you for being part of the team! 10 Star and quality service! We highly recommend CodeHunter as your web designer of choice!"</p>
           <p class="title mt-2 mb-4">Alice Ward | Founder and CFO</p>
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto,q_auto:good,w_150/v1551624791/codeHunter/alice-circle.png"
