@@ -36,10 +36,17 @@ module.exports = {
       {
         name: "apple-mobile-web-app-status-bar-style",
         content: "black-translucent"
-      }
+      },
+      { name: "apple-mobile-web-app-title", content: "codeHunter" },
+      { name: "application-name", content: "codeHunter" },
+      { name: "msapplication-TileColor", content: "#22aa00" },
+      {
+        name: "msapplication-config",
+        content: "/icons/browserconfig.xml?v: jw7bkXydvw"
+      },
+      { name: "theme-color", content: "#212121" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
         href:
@@ -48,6 +55,37 @@ module.exports = {
       {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      },
+      // Icon Meta Tags
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/icons/apple-touch-icon.png"
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/icons/favicon-32x32.png"
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/icons/favicon-16x16.png"
+      },
+      {
+        rel: "manifest",
+        href: "/icons/site.webmanifest"
+      },
+      {
+        rel: "mask-icon",
+        href: "/icons/safari-pinned-tab.svg",
+        color: "#2a2968"
+      },
+      {
+        rel: "shortcut icon",
+        href: "/icons/favicon.ico?v=jw7bkXydvw"
       }
     ]
   },
