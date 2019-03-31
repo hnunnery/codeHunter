@@ -81,12 +81,12 @@ export default {
 }
 @media screen and (min-width: 960px) {
   .quote {
-    height: 200px;
+    height: 280px;
   }
 }
 @media screen and (min-width: 1350px) {
   .quote {
-    height: 130px;
+    height: 200px;
   }
 }
 </style>
