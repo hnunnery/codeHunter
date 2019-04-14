@@ -16,7 +16,7 @@
             alt="laptop and iphone"
           ></v-img>
         </a>
-        <h2 class="display-1 mt-5">Stealth Entry</h2>
+        <h2 class="display-1 mt-5">Stealth Entry, LLC</h2>
         <v-divider class="mt-2 mb-3"></v-divider>
         <p
           class="text-xs-left subheading"
