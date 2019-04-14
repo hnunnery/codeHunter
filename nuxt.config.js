@@ -35,14 +35,14 @@ module.exports = {
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "apple-mobile-web-app-status-bar-style",
-        content: "black-translucent"
+        content: "black"
       },
       { name: "apple-mobile-web-app-title", content: "codeHunter" },
       { name: "application-name", content: "codeHunter" },
-      { name: "msapplication-TileColor", content: "#22aa00" },
+      { name: "msapplication-TileColor", content: "#212121" },
       {
         name: "msapplication-config",
-        content: "/icons/browserconfig.xml?v: jw7bkXydvw"
+        content: "/icons/browserconfig.xml?v=oLB7qmM0ed"
       },
       { name: "theme-color", content: "#212121" }
     ],
@@ -60,32 +60,32 @@ module.exports = {
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/icons/apple-touch-icon.png"
+        href: "/icons/apple-touch-icon.png?v=oLB7qmM0ed"
       },
       {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/icons/favicon-32x32.png"
+        href: "/icons/favicon-32x32.png?v=oLB7qmM0ed"
       },
       {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/icons/favicon-16x16.png"
+        href: "/icons/favicon-16x16.png?v=oLB7qmM0ed"
       },
       {
         rel: "manifest",
-        href: "/icons/site.webmanifest"
+        href: "/icons/site.webmanifest?v=oLB7qmM0ed"
       },
       {
         rel: "mask-icon",
-        href: "/icons/safari-pinned-tab.svg",
-        color: "#2a2968"
+        href: "/icons/safari-pinned-tab.svg?v=oLB7qmM0ed",
+        color: "#22aa00"
       },
       {
         rel: "shortcut icon",
-        href: "/icons/favicon.ico?v=jw7bkXydvw"
+        href: "/icons/favicon.ico?v=oLB7qmM0ed"
       }
     ]
   },
