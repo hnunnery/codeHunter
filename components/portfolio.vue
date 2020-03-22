@@ -4,24 +4,6 @@
       <v-flex xs12 class="text-xs-center">
         <h2 class="primary--text display-3">- Portfolio -</h2>
       </v-flex>
-      <v-flex xs12 md6 class="text-xs-center my-5 px-5 vowaid">
-        <a href="https://www.stealthentry.com" target="_blank">
-          <v-img
-            data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-delay="50"
-            data-aos-duration="1500"
-            class="responsive-img"
-            src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,q_100,w_800/v1551824888/codeHunter/stealthentry-graphic.png"
-            alt="laptop and iphone"
-          ></v-img>
-        </a>
-        <h2 class="display-1 mt-5">Stealth Entry, LLC</h2>
-        <v-divider class="mt-2 mb-3"></v-divider>
-        <p
-          class="text-xs-left subheading"
-        >Stealth Entry Cyber Security Solutions takes a FULL HOLISTIC view of your organization’s security threat-scape using the latest techniques. Stealth Entry, LLC. is certified U.S. Small Business Administration 8(a), Serviced Disabled Veteran Owned (SDVOSB) and State of Ohio Minority Business Enterprise and Veterans Business Enterprise (MBE/VBE/EDGE).</p>
-      </v-flex>
 
       <v-flex xs12 md6 class="text-xs-center my-5 px-5 vowaid">
         <a href="https://vowaidfoundation.org" target="_blank">
